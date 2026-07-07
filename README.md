@@ -59,6 +59,15 @@ L’étape se compose de deux notebooks principaux :
 
 2. Analyse des thématiques. Ce notebook prend la classification thématique comme base de navigation dans le corpus, afin d’étudier ensuite ce qui est dit concrètement sur chaque thème. Par exemple, les topics liés aux transports permettent d’analyser les itinéraires, les moyens de déplacement et les acteurs chargés de l’organisation des trajets ; les topics liés aux régions russes permettent d’examiner la géographie de l’accueil et la répartition territoriale des dispositifs ; les topics liés aux points d’hébergement temporaire permettent d’étudier la manière dont les lieux d’accueil sont décrits ; enfin, les mentions chiffrées permettent d’observer comment TASS formule l’ampleur des déplacements (Nt2).
 
+## Corpus Telegram. 
+
+### Pipeline principal 
+
+Dossier : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/Telegram
+
+### Annexe : Analyse de reseaux Telegram 
+
+Dossier : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/other_annexe_Telegram_network_analysis
 
 
 
