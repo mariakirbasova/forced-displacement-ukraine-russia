@@ -51,12 +51,6 @@ Le méthode a suivi le pipeline suivant :
 
 Dossier de l'étape : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/TASS/3_Topic_Modelling_BERTopic
 
-#### Etape 3. 
-
-##### Topic modelling avec BERTopic. 
-
-Dossier de l'étape : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/TASS/3_Topic_Modelling_BERTopic
-
 Cette étape mobilise le *topic modelling* afin d’explorer les grandes thématiques présentes dans le corpus TASS. Ce methode permet d’identifier des regroupements thématiques récurrents dans les articles et de naviguer plus facilement dans le corpus.
 
 L’étape se compose de deux notebooks principaux :
