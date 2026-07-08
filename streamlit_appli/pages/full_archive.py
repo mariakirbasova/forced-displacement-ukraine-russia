@@ -7,14 +7,18 @@ import pandas as pd
 import streamlit as st
 from streamlit_folium import st_folium
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 st.set_page_config(
     page_title="Telegram Corpus",
     layout="wide",
 )
 
-CITIES_FILE = "data/cities.csv"
-TOPICS_FILE = "data/city_topics.csv"
-CITY_PAGE = "pages/city_page.py"
+CITIES_FILE = BASE_DIR / "data" / "cities.csv"
+TOPICS_FILE = BASE_DIR / "data" / "city_topics.csv"
+CITY_PAGE = BASE_DIR / "pages" / "city_page.py"
 
 
 @st.cache_data
