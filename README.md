@@ -8,6 +8,10 @@ Le second corpus réunit des messages publiés dans des **chats Telegram** crée
 
 L’objectif du dépôt est donc de documenter les différentes étapes de constitution, de traitement et d’analyse de ces corpus. 
 
+### Lien vers l'archive numérique : 
+
+https://forced-displacement-ukraine-russia-archive.streamlit.app/
+
 ## Corpus TASS. 
 
 #### Etape 1. 
