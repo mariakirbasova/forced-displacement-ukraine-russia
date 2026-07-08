@@ -1,0 +1,39 @@
+city,city_id,lat,lon,total
+Russia (national),russia_national,55.7558,37.6173,50
+Moscow,moscow,55.7558,37.6173,11
+Tula,tula,54.1931,37.6173,1
+Taganrog,taganrog,47.2362,38.8969,1
+Rostov-on-Don,rostov_on_don,47.2357,39.7015,33
+Vladimir,vladimir,56.1291,40.4066,2
+Belgorod,belgorod,50.5954,36.5879,13
+Simferopol,crimea_simferopol,44.9521,34.1024,11
+Krasnodar,krasnodar,45.0355,38.9753,9
+Ufa,ufa,54.7388,55.9721,2
+Vladivostok,vladivostok,43.1155,131.8855,1
+Cheboksary,cheboksary,56.1439,47.2489,3
+Saint Petersburg,saint_petersburg,59.9343,30.3351,19
+Voronezh,voronezh,51.6755,39.2089,7
+Izhevsk,izhevsk,56.8528,53.2115,2
+Tula,tula_alt,54.1931,37.6173,1
+Novosibirsk,novosibirsk,55.0084,82.9357,1
+Kazan,kazan,55.7961,49.1064,2
+Shakhty,shakhty,47.7091,40.2159,4
+Novorossiysk,novorossiysk,44.7235,37.7686,1
+Volgograd,volgograd,48.708,44.5133,1
+Kaliningrad,kaliningrad,54.7104,20.4522,2
+Krasnoyarsk,krasnoyarsk,56.0153,92.8932,1
+Nizhny Novgorod,nizhny_novgorod,56.2965,43.9361,1
+Ryazan,ryazan,54.6292,39.7364,1
+Samara,samara,53.1959,50.1008,2
+Sochi,sochi,43.6028,39.7342,1
+Penza,penza,53.1959,45.0183,1
+Volokolamsk,volokolamsk,56.0333,35.9586,1
+Yekaterinburg,yekaterinburg,56.8389,60.6057,2
+Lipetsk,lipetsk,52.6103,39.5946,1
+Stary Oskol,stary_oskol,51.2967,37.8417,4
+Stavropol,stavropol,45.0448,41.969,2
+Tyumen,tyumen,57.1522,65.5272,1
+Perm,perm,58.0105,56.2502,1
+Khabarovsk,khabarovsk,48.4802,135.0719,3
+Chelyabinsk,chelyabinsk,55.1644,61.4368,1
+Nizhny Tagil,nizhny_tagil,57.9101,59.9813,1
