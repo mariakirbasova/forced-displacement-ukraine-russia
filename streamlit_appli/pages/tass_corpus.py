@@ -9,8 +9,8 @@ st.set_page_config(
     layout="wide",
 )
 
-TASS_FILE = Path("data/Final_corpus_TASS.json")
-
+BASE_DIR = Path(__file__).resolve().parent.parent
+TASS_FILE = BASE_DIR / "data" / "Final_corpus_TASS.json"
 
 @st.cache_data
 def load_tass_data():
