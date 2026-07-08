@@ -1,13 +1,17 @@
 import pandas as pd
 import streamlit as st
 
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 st.set_page_config(
     page_title="City page",
     layout="wide",
 )
 
-CITIES_FILE = "data/cities.csv"
-TOPICS_FILE = "data/city_topics.csv"
+CITIES_FILE = BASE_DIR / "data" / "cities.csv"
+TOPICS_FILE = BASE_DIR / "data" / "city_topics.csv"
 
 
 @st.cache_data
