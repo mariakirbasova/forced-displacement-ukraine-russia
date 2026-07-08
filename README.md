@@ -65,15 +65,29 @@ L’étape se compose de deux notebooks principaux :
 
 Dossier : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/Telegram
 
+La méthodologie mobilisée repose sur un sous-corpus issu de l’archive collectée de canaux et de chats Telegram. Dans le cadre de cette analyse, nous retenons 41 chats généraux afin d’étudier les principales problématiques rencontrées par les personnes déplacées d’Ukraine vers la Russie, telles qu’elles apparaissent dans les échanges ordinaires entre usagers, bénévoles et autres acteurs impliqués. Le methode principale utilisé est la Modelisation Thématique. 
+
+L’analyse numérique de ces espaces suit plusieurs étapes :
+
+1. Analyse générale du sous-corpus et prétraitement des données : cette étape consiste à explorer la structure des fichiers Telegram, à transformer les messages en tableau exploitable, à nettoyer les textes, à supprimer ou normaliser certains éléments techniques et à préparer les données pour les analyses ultérieures (Nt1) ;
+
+2. Analyse générale du sous-corpus à partir de la distribution des langues : cette étape permet d’identifier les langues présentes dans les messages, d’observer leur répartition selon les chats et les périodes, et de mieux situer la composition linguistique des espaces étudiés (Nt2) ;
+
+3. Analyse thématique exploratoire par LDA et BERTopic : deux méthodes de topic modelling sont testées afin d’identifier les grandes thématiques récurrentes dans les discussions. LDA est utilisé comme première approche probabiliste pour faire émerger des groupes de mots associés à certains thèmes, tandis que BERTopic permet de regrouper les messages à partir de leurs représentations sémantiques. Plusieurs configurations sont comparées afin d’évaluer la lisibilité des topics produits et leur pertinence pour l’analyse qualitative (Nt3, Nt4) ;
+
+4. Analyse des topics identifiés avec BERTopic : les topics obtenus sont ensuite interprétés à partir des mots-clés, des messages représentatifs et d’un retour qualitatif aux conversations. Cette étape permet de regrouper les topics en catégories plus larges et d’étudier plus précisément les questions qui structurent les échanges : démarches administratives, documents, citoyenneté, passeports, aide matérielle, logement, transport, santé, travail ou encore expériences de déplacement. Les résultats de BERTopic sont donc utilisés non comme une classification finale, mais comme un outil de navigation dans le corpus et de repérage des problématiques principales (Nt5).
+
 ### Annexe : Analyse de reseaux Telegram 
 
 Dossier : https://github.com/mariakirbasova/forced-displacement-ukraine-russia/tree/main/other_annexe_Telegram_network_analysis
 
+Cette analyse mobilise les méthodes de *network analysis* afin d’étudier la structure relationnelle de l’ensemble du corpus Telegram téléchargé. L’objectif est d’observer la manière dont les différents espaces de communication — chats et canaux — sont connectés entre eux à travers la circulation des messages transférés. Dans ce réseau, les nœuds correspondent aux chats et canaux Telegram, tandis que les liens représentent l’existence de messages transférés d’un espace vers un autre. La visualisation et l’exploration du réseau ont ensuite été réalisées avec le logiciel Gephi.
 
+Le traitement se compose de deux étapes :
 
+1. Vérification et nettoyage des fichiers du corpus : cette étape consiste à contrôler la cohérence entre la liste des espaces de communication retenus et les fichiers JSON effectivement disponibles dans le dossier de travail. Elle permet d’identifier les fichiers manquants, les doublons éventuels ou les fichiers hors corpus, afin de préparer une base fiable pour l’analyse de réseau (Nt1) ;
 
-
-
+2. Création des fichiers nécessaires à l’analyse dans Gephi : cette étape extrait les informations relatives aux messages transférés, identifie les espaces sources et les espaces de destination, puis construit deux tables distinctes : une table des nœuds, correspondant aux chats et canaux, et une table des liens, correspondant aux transferts de messages entre ces espaces. Les liens sont pondérés selon le nombre de transferts observés, puis exportés au format CSV pour être visualisés et analysés dans Gephi (Nt2).
 
 
 
