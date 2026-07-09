@@ -116,6 +116,7 @@ if city_spaces.empty:
     st.stop()
 
 display_columns = [
+    "titre_support",
     "type",
     "type_communication",
     "thematique",
